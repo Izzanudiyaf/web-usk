@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+}
+
+#title {
+    background-color: #ffff;
+}
+
+.container-fluid {
+    padding: 2% 1%;
+}
+
+h1 {
+    font-family: "Montserrat",
+        sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* navigation-bar */
+
+
+.navbar {
+    padding: 0 4.5rem;
+    background-color: #ffff;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+
+.row {
+    padding: 2rem;
+}
+
+/* button-page */
+
+.button-download {
+    margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 4rem;
+}
+
+/* carousel */
+#carousel {
+    padding: 5% 1%;
+}
+
+.carousel-inner img {
+    height: 40rem;
+}
+
+
+/* Feature section */
+
+#features {
+    padding: 2% 5% 5% 5%;
+}
+
+#features h1 {
+    text-align: center;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 2%;
+}
+
+.feature-button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card-body {
+    text-align: justify;
+}
+.card-text {
+    color: black;
+}
+
+.card-link {
+    color: green;
+}
+
+/* Announcement section */
+#announcement {
+    background-color: rgba(56, 121, 107, 0.57);
+}
+
+#announcement .card {
+    background-color: rgba(56, 121, 107, 0.57);
+    border: 0;
+}
+
+#announcement .card h5 {
+    color: green;
+}
+
+.announcement-button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* History */
+#history {
+    padding: 5% 5% 0% 5%;
+}
+
+/* Information */
+#information {
+    padding: 1% 15%;
+}
+
+#information h1 {
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+#information .card {
+    border-color: rgba(56, 121, 107, 0.57);;
+    width: 8rem;
+   
+}
+
+ .card-body {
+    text-align: center;
+    background-color: rgba(56, 121, 107, 0.57);;
+    border-color: rgba(56, 121, 107, 0.57);;
+}
+
+.card-body p{
+    font-size: 14px;
+}
+.feature-box {
+    padding: 0.5rem;
+}
+
+
+/* Logo section */
+#logo {
+    background-color: rgba(56, 121, 107, 0.57);;
+}
+
+#logo .card {
+    background-color: rgba(56, 121, 107, 0.57);;
+    border: 0;
+}
+
+.card-img img {
+    width: 5%;
+    height: 100%;
+}
+
+/* Quote */
+#quote {
+    padding: 5% 5%;
+    height: 150px;
+}
+
+#quote img {
+    height: 50%;
+}
+
+/* Business and Investment */
+#business {
+    padding: 1% 5% 5% 0%;
+}
+
+#business h1 {
+    text-align: center;
+}
+
+.business-box {
+    text-align: center;
+    padding: 2%;
+}
+
+.business-box i {
+    color: green;
+}
+
+.business-box a {
+    text-decoration: none;
+}
+
+.business-button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Faculty and Program Section */
+#faculty {
+    padding: 1%;
+    background-color: rgba(56, 121, 107, 0.57);;
+}
+
+#faculty ul {
+    list-style-type: none;
+}
+
+#faculty li {
+    margin: 5px;
+}
+
+#faculty img {
+    width: 100%;
+    height: 100%;
+}
+
+/* support section */
+#support .card {
+    background-color: rgba(56, 121, 107, 0.57);;
+    border: 0;
+}
+
+#support img {
+    width: 50%;
+    height: 100%;
+}
+
+/* Footer Section */
+#footer {
+    padding: 1%;
+    background-color: rgba(56, 121, 107, 0.57);;
+}
+
+#footer ul {
+    list-style-type: none;
+}
+
+/* kedokteran hewan */
+#image {
+    padding: 5% 0%;
+}
+
+.img-shadow img {
+    height: 30rem;
+    width: 90rem;
+    filter: opacity(20%);
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered-content {
+    margin-top: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    width: 80%;
+}
+
+/* information-fkh */
+
+    #information-fkh {
+        padding: 1% 5%; 
+        margin-bottom: 5%;
+        background-color: rgba(245, 245, 245, 0.92);
+    }
+    
+    #information-fkh h2 {
+        text-align: center;
+    }
+    
+    #information-fkh .card {
+        border-color: rgba(56, 121, 107, 0.57);
+        margin-left: 40%;
+        margin-right: 40%;
+        
+    }
+    
+    #information-fkh .card-body {
+        text-align: center;
+        background-color: rgba(56, 121, 107, 0.57);
+        border-color: rgba(56, 121, 107, 0.57);
+    } 
+    
+   /* information-fkh-s2 */
+   #information-fkh-s2 {
+    /* padding: 1% 15%; */
+    background-color: rgba(245, 245, 245, 0.92);
+    margin-bottom: 10rem;
+}
+
+#information-fkh-s2 h1 {
+    text-align: center;
+}
+
+#information-fkh-s2 .card {
+    border-color: rgba(56, 121, 107, 0.57);
+    width: 8rem;
+}
+
+#information-fkh-s2 .card-body {
+    text-align: center;
+    background-color: rgba(56, 121, 107, 0.57);
+    border-color: rgba(56, 121, 107, 0.57);
+} 
+
+
+
+
+/* visi  */
+ #visi {
+    padding: 1% 5%; 
+    margin-bottom: 6rem;
+    background-color: rgba(245, 245, 245, 0.92);
+ }  
+
+
+ #visi ul {
+    list-style-type: none;
+}
+
+#visi .content-visi p {
+    padding: auto;
+    font-family: "Montserrat",
+        sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: black;
+}
+
+.visi-container {
+    padding: 23px 180px; 
+    /* margin-bottom: 16.438rem; */
+    background-color: rgba(245, 245, 245, 0.92);
+    text-align: center;
+} 
+
+#misi {
+    padding: 1% 5%; 
+    margin-bottom: 6rem;
+    background-color: rgba(245, 245, 245, 0.92);
+ }
+
+ #misi .content-visi {
+    text-align: center;
+    text-align: left;
+    font-family: "Montserrat",
+        sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: black;
+    
+ }
+
+ /* Teknik */
+#teknik {
+    background-color: rgba(245, 245, 245, 0.92);
+    margin-bottom: 5rem;
+}
+
+ #teknik .row {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 0 2rem;
+ }
+ 
+ #teknik .row h1{
+    text-align: center;
+ }
+ 
+/* #teknik .card {
+width: 5rem;
+height: 5rem;
+ } */
+
+ 
+
+
+
+
+ 
+
+
